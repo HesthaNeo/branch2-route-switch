@@ -60,11 +60,11 @@
             <p>- E. Next, we'll configure DHCP services for branch 2 data and voice networks.</p>
                 1. First, address exclusions for the DCHP pools.
                 <img width="873" height="266" alt="Screenshot 2026-04-18 173707" src="https://github.com/user-attachments/assets/d479b484-8db3-445a-9a57-eff7ca95c783" />
-                2. Second, we'll configure the DHCP pool for B1-data (network, default-router, dns server, etc.)
-                <img width="867" height="283" alt="Screenshot 2026-04-16 164226" src="https://github.com/user-attachments/assets/6851ab5c-dd2f-40e4-922d-bf4f6e977239" />
-                3. Lastly, we'll configure the DHCP pool for B1-voice.
-                <img width="873" height="283" alt="Screenshot 2026-04-16 164428" src="https://github.com/user-attachments/assets/e05789f3-d520-48ec-9db4-80887c200932" />
-                <p><em>- The option "150 command" adds the TFTP option. Also no DNS server is required to be handed out to the phones on the network.</em></p>
+                2. Second, we'll configure the DHCP pool for B2-data (network, default-router, dns server, etc.)
+                <img width="875" height="286" alt="Screenshot 2026-04-18 174003" src="https://github.com/user-attachments/assets/8ec1b9fd-86d6-4631-8661-24d606f7cd8a" />
+                3. Lastly, we'll configure the DHCP pool for B2-voice.
+                <img width="869" height="380" alt="Screenshot 2026-04-18 174325" src="https://github.com/user-attachments/assets/8b5cce79-496d-4a18-a7aa-240b1a2d6f10" />
+                <p><em>- The option "150 command" adds the TFTP option to make the phones register with HQ-VOICE-RT. Also no DNS server is required to be handed out to the phones on the network.</em></p>
             <p>- F. For this next step, and also the next series of steps we will now configure and connect private WAN interface G0/1.</p>
                 <img width="865" height="403" alt="Screenshot 2026-04-16 164854" src="https://github.com/user-attachments/assets/cf723a89-e356-4125-ba15-e78ee110d140" />
                 <img width="1208" height="865" alt="Screenshot 2026-04-16 164959" src="https://github.com/user-attachments/assets/baf55426-a5e2-4134-b95d-0d47afda7e19" />
