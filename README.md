@@ -99,7 +99,7 @@
                 <img width="869" height="269" alt="Screenshot 2026-04-18 185907" src="https://github.com/user-attachments/assets/287d8348-667c-4ee3-b9ed-328c89d4bcd9" />
                 <img width="1200" height="979" alt="Screenshot 2026-04-18 190043" src="https://github.com/user-attachments/assets/9e5b9c88-2ac4-41f0-94f2-7b22d39e54e6" />
             <p>- G. Lastly, we'll configure the access ports on the branch 2 switch.</p>
-                
+                <img width="871" height="448" alt="Screenshot 2026-04-18 190405" src="https://github.com/user-attachments/assets/c51134a4-1c42-413e-9a0e-32552b1d7e22" />
                 <p><em>- *Now that the Branch 1 router and switch are installed, we can set up the phones, hosts & wireless!</em></p>
 
 
