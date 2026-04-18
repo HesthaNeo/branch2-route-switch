@@ -47,8 +47,8 @@
         <p>- G. Configure Access Ports</p>
         <h2><strong><u>Implementation</u></strong></h2>
         <h3>Step 1: Install And Configure The Branch 1 Router</h3>
-            <p>- A. First, we will rack, mount, and power on the cisco 2911 router.</p>
-                <img width="1395" height="873" alt="Screenshot 2026-04-16 161350" src="https://github.com/user-attachments/assets/721ece10-de94-4c77-92cd-9dfc35198b4b" />
+            <p>- A. First, we will rack, mount, and power on the cisco 1941 router.</p>
+                <img width="1175" height="933" alt="Screenshot 2026-04-18 172128" src="https://github.com/user-attachments/assets/c02a4580-6c94-479d-9b50-585cd0ec4643" />
             <p>- B. Next, we will install the uck9 license.</p>
                 <img width="866" height="995" alt="Screenshot 2026-04-16 161731" src="https://github.com/user-attachments/assets/7afcbaa1-7742-4097-b7c1-fc429f8569d0" />
                 <img width="870" height="1137" alt="Screenshot 2026-04-16 161850" src="https://github.com/user-attachments/assets/52ae8506-d271-499e-9370-496677da66cd" />
