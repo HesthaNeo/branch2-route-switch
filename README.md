@@ -2,7 +2,7 @@
 <img width="592" height="182" alt="Screenshot 2026-04-17 003809" src="https://github.com/user-attachments/assets/169d7d38-a238-4479-9b1e-9f8aa5dc9b0a" />
 </p>
 <h1><u>Milestone 11: Branch 2 Route/Switch</u></h1>
-    <p>Tenth phase, we will install 1 CISCO2911/K9 router with ipbasek9, and uck9 licensing. This router will act as the Branch 1 gateway providing access back to HQ and Branch 2 via the Private WAN and function as the local call controller and PSTN gateway. In addition, consultant will install a Cisco WS-C2960-24TT layer 2 access switch.</p>
+    <p>Tenth phase, we will install  1 CISCO1941/K9 router with ipbasek9, and securityk9 licensing. This router will act as the Branch 2 gateway providing access back to HQ and Branch 1 via a Site to Site (L2L) VPN  over the Internet. In addition, we'll install a Cisco WS-C2960-24TT layer 2 access switch.</p>
     <h2><strong><u>Configuration Steps</u></strong></h2>
     <p><b>Step 1: Install And Configure The Branch 1 Router</b></p>
         <p>- A. Rack, Mount, And Power On The Cisco 2911 Router</p>
