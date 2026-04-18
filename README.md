@@ -76,9 +76,10 @@
                 <img width="860" height="725" alt="Screenshot 2026-04-18 180730" src="https://github.com/user-attachments/assets/e9373864-04a3-4bce-845f-952d427faca8" />
             <p>- G. Next, we'll configure an access control list that only allows traffic from the HQ IPSec VPN tunnel.</p>
                 <img width="871" height="386" alt="Screenshot 2026-04-18 181320" src="https://github.com/user-attachments/assets/9e95d3cf-7a28-4f01-9698-272b7d247d96" />
+            <p>- H. Now, we will configure and connect the VPN-ONLY internet connection for the site-to-site VPN to HQ, which in this case will be Internet interface G0/1.</p>
+                <img width="874" height="429" alt="Screenshot 2026-04-18 182421" src="https://github.com/user-attachments/assets/d349755f-5416-4b9c-93d7-ae33149f6e65" />
 
-            <p>- H. Now, we will need to configure a default route pointing to the private WAN neighbor IP.</p>
-                <img width="872" height="231" alt="Screenshot 2026-04-16 171242" src="https://github.com/user-attachments/assets/b61200ef-05dd-4b99-a5b2-bb7063b2cf5b" />
+                
             <p>- I. Next, we'll configure the Private WAN voice quality of service.</p>
                 <img width="871" height="858" alt="Screenshot 2026-04-16 171730" src="https://github.com/user-attachments/assets/3477303d-f3f7-46ad-931a-492ea96cb34d" />
                 <img width="872" height="258" alt="Screenshot 2026-04-16 171825" src="https://github.com/user-attachments/assets/e95a26dd-15d8-4f09-8b88-4650ab9fb2e1" />
