@@ -67,7 +67,11 @@
                 <p><em>- The option "150 command" adds the TFTP option to make the phones register with HQ-VOICE-RT. Also no DNS server is required to be handed out to the phones on the network.</em></p>
             <p>- F. For this next step, we'll set up the VPN policy and cyrpto map for the IPSec site-to-site VPN to HQ.</p>
                 1. We'll start by creating an ACL for the crypto map that matches any traffic going to HQ networks:
-                
+                <img width="873" height="288" alt="Screenshot 2026-04-18 174941" src="https://github.com/user-attachments/assets/fe71856f-c1cd-41e5-8043-ada16eb93e84" />
+                2. Second, we'll configure the ISAKMP policy.
+                <img width="871" height="304" alt="Screenshot 2026-04-18 175301" src="https://github.com/user-attachments/assets/ef6b976d-e0d2-4870-bad1-594430261b33" />
+
+
             <p>- G. Next, we'll configure private WAN border gateway protocol (BGP) peering.</p>
                 1. We'll start by configuring the BGP router ID and set up peering with the provider router.
                 <img width="869" height="243" alt="Screenshot 2026-04-16 165712" src="https://github.com/user-attachments/assets/9d88ca45-7162-4080-8041-9427d952251f" />
