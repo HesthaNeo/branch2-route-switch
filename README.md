@@ -65,11 +65,9 @@
                 3. Lastly, we'll configure the DHCP pool for B2-voice.
                 <img width="869" height="380" alt="Screenshot 2026-04-18 174325" src="https://github.com/user-attachments/assets/8b5cce79-496d-4a18-a7aa-240b1a2d6f10" />
                 <p><em>- The option "150 command" adds the TFTP option to make the phones register with HQ-VOICE-RT. Also no DNS server is required to be handed out to the phones on the network.</em></p>
-            <p>- F. For this next step, and also the next series of steps we will now configure and connect private WAN interface G0/1.</p>
-                <img width="865" height="403" alt="Screenshot 2026-04-16 164854" src="https://github.com/user-attachments/assets/cf723a89-e356-4125-ba15-e78ee110d140" />
-                <img width="1208" height="865" alt="Screenshot 2026-04-16 164959" src="https://github.com/user-attachments/assets/baf55426-a5e2-4134-b95d-0d47afda7e19" />
-                <img width="873" height="334" alt="Screenshot 2026-04-16 165109" src="https://github.com/user-attachments/assets/899d97c2-5cc9-42a4-a866-4b97ea88ddf3" />
-                <p><em>- And as you can see, we have successful pings to the provider router. As a side note, we also configured "no cdp enable" to ensure we aren't sending cdp hello messages to the provider network.</em></p>
+            <p>- F. For this next step, we'll set up the VPN policy and cyrpto map for the IPSec site-to-site VPN to HQ.</p>
+                1. We'll start by creating an ACL for the crypto map that matches any traffic going to HQ networks:
+                
             <p>- G. Next, we'll configure private WAN border gateway protocol (BGP) peering.</p>
                 1. We'll start by configuring the BGP router ID and set up peering with the provider router.
                 <img width="869" height="243" alt="Screenshot 2026-04-16 165712" src="https://github.com/user-attachments/assets/9d88ca45-7162-4080-8041-9427d952251f" />
