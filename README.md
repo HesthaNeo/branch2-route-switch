@@ -54,9 +54,12 @@
                 <img width="873" height="1395" alt="Screenshot 2026-04-18 172622" src="https://github.com/user-attachments/assets/1ed8e1d2-3068-47ab-a2af-948c9ba3d21b" />
                 <img width="871" height="1175" alt="Screenshot 2026-04-18 172712" src="https://github.com/user-attachments/assets/f8ddf371-ce69-44fa-a872-52d1bf3db8ac" />
             <p>- C. Next we will do basic Router configurations (hostname, NTP, domain-name, SSH, etc).</p>
-                    <img width="871" height="983" alt="Screenshot 2026-04-18 172906" src="https://github.com/user-attachments/assets/63635da3-a14e-4d91-bffb-871d57521e3a" />
-            <p>- D. Now, we'll configure and connect branch 1 LAN interface G0/0. We'll set our VLANS respectively as well. (Mgmt interface vlan 100, data interface vlan 192, voice interface vlan 10.)</p>
-                <img width="869" height="887" alt="Screenshot 2026-04-16 163432" src="https://github.com/user-attachments/assets/c0710a87-16ea-4e29-9e90-a407b5486548" />
+                <img width="871" height="983" alt="Screenshot 2026-04-18 172906" src="https://github.com/user-attachments/assets/63635da3-a14e-4d91-bffb-871d57521e3a" />
+            <p>- D. Now, we'll configure and connect branch 2 LAN interface G0/0. We'll set our VLANS respectively as well. (Mgmt interface vlan 100, data interface vlan 192, voice interface vlan 10.)</p>
+                <img width="870" height="869" alt="Screenshot 2026-04-18 173258" src="https://github.com/user-attachments/assets/66590791-6acd-4933-a61d-dc846e396de7" />
+
+
+                   
             <p>- E. Next, we'll configure DHCP services for branch 1 data and voice networks.</p>
                 1. First, address exclusions for the DCHP pools.
                 <img width="870" height="225" alt="Screenshot 2026-04-16 163950" src="https://github.com/user-attachments/assets/381602d7-4f18-4d78-a47e-eadc7ed229d4" />
