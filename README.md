@@ -4,11 +4,11 @@
 <h1><u>Milestone 11: Branch 2 Route/Switch</u></h1>
     <p>Tenth phase, we will install  1 CISCO1941/K9 router with ipbasek9, and securityk9 licensing. This router will act as the Branch 2 gateway providing access back to HQ and Branch 1 via a Site to Site (L2L) VPN  over the Internet. In addition, we'll install a Cisco WS-C2960-24TT layer 2 access switch.</p>
     <h2><strong><u>Configuration Steps</u></strong></h2>
-    <p><b>Step 1: Install And Configure The Branch 1 Router</b></p>
-        <p>- A. Rack, Mount, And Power On The Cisco 2911 Router</p>
-        <p>- B. Install Uck9 License</p>
+    <p><b>Step 1: Install And Configure The Branch 2 Router</b></p>
+        <p>- A. Rack, Mount, And Power On The Cisco 1941 Router</p>
+        <p>- B. Install Securityk9 License</p>
         <p>- C. Basic Router Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</p>
-        <p>- D. Configure And Connect Branch 1 LAN Interface G0/0</p>
+        <p>- D. Configure And Connect Branch 2 LAN Interface G0/0</p>
             <p>- I. MGMT Interface VLAN 100</p>
             <p>- II. Data Interface VLAN 192</p>
             <p>- III. Voice Interface VLAN 10</p>
