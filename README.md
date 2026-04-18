@@ -74,19 +74,9 @@
                 <img width="870" height="236" alt="Screenshot 2026-04-18 180139" src="https://github.com/user-attachments/assets/3e798979-1f44-4ae6-a784-e2bda6512ee3" />
                 4. Lastly for this step, we will proceed with creating the map that will be applied to the VPN-ONLY internet interface.
                 <img width="860" height="725" alt="Screenshot 2026-04-18 180730" src="https://github.com/user-attachments/assets/e9373864-04a3-4bce-845f-952d427faca8" />
-            <p>- G. Next, we'll configure private WAN border gateway protocol (BGP) peering.</p>
-                1. We'll start by configuring the BGP router ID and set up peering with the provider router.
-                <img width="869" height="243" alt="Screenshot 2026-04-16 165712" src="https://github.com/user-attachments/assets/9d88ca45-7162-4080-8041-9427d952251f" />
-                <p><em>- Command "router bgp 65123" starts so we can enter the configuration for autonomous system #65123. Command "bgp router-id 192.168.250.6" forces the router to us g0/1 IP as the BGP ID. Command "neighbor 192.168.250.5 remote-as 65535" configures the BGP peer.</em></p>
-                2. Second, we'll configure network statements to advertise across the private WAN.
-                <img width="870" height="1094" alt="Screenshot 2026-04-16 170216" src="https://github.com/user-attachments/assets/4cbe6e60-4d19-45a2-b592-172574edbecb" />
-                <p><em>- "network 192.168.120.0 mask 255.255.255.0" advertises B1 MGMT, "network 192.168.20.0 mask 255.255.255.0" advertises B1 DATA, "network 10.10.20.0 mask 255.255.255.0" advertises B1 VOICE.</em></p>
-                <p><em>- Let's check the bgp neighbor to make sure it is connected:</em></p>
-                <img width="874" height="365" alt="Screenshot 2026-04-16 170610" src="https://github.com/user-attachments/assets/cbf3841e-e22b-4c9d-a4e0-4635d7496897" />
-                <img width="871" height="1559" alt="Screenshot 2026-04-16 170656" src="https://github.com/user-attachments/assets/2056a6eb-5e06-43a6-a93c-307944b0e2d5" />
-                <img width="871" height="745" alt="Screenshot 2026-04-16 170810" src="https://github.com/user-attachments/assets/cbc721c6-7581-4317-a631-97c784cbf119" />
-                <img width="870" height="680" alt="Screenshot 2026-04-16 170928" src="https://github.com/user-attachments/assets/8b0611ec-527b-48e4-a5d5-ba86e494fd38" />
-                <p><em>- Successful.</em></p>
+            <p>- G. Next, we'll configure an access control list that only allows traffic from the HQ IPSec VPN tunnel.</p>
+                <img width="871" height="386" alt="Screenshot 2026-04-18 181320" src="https://github.com/user-attachments/assets/9e95d3cf-7a28-4f01-9698-272b7d247d96" />
+
             <p>- H. Now, we will need to configure a default route pointing to the private WAN neighbor IP.</p>
                 <img width="872" height="231" alt="Screenshot 2026-04-16 171242" src="https://github.com/user-attachments/assets/b61200ef-05dd-4b99-a5b2-bb7063b2cf5b" />
             <p>- I. Next, we'll configure the Private WAN voice quality of service.</p>
