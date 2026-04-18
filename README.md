@@ -86,10 +86,10 @@
                 <img width="873" height="241" alt="Screenshot 2026-04-18 183238" src="https://github.com/user-attachments/assets/0865b987-d315-481f-bfeb-6eb0d91b10b2" />
                 <p><em>- Our first route gives us a default route to HQ-WAN-RTR Internet Interface, while the second route gives us a route from the VPN endpoint to the ISP gateway.</em></p>
         <h3>Step 2: Install and Configure The Branch 2 Switch</h3>
-            <p>- A. We'll start by racking, mounting, and powering on the branch 1 2960 switch.</p>
-                <img width="1281" height="906" alt="Screenshot 2026-04-16 175802" src="https://github.com/user-attachments/assets/52b16c9b-2b4b-4f7a-ad8f-78c51d8dfa15" />
+            <p>- A. We'll start by racking, mounting, and powering on the branch 2 2960 switch.</p>
+                <img width="1210" height="941" alt="Screenshot 2026-04-18 183845" src="https://github.com/user-attachments/assets/31b03d65-a40c-4ae3-bbcc-c2d955ced09f" />
             <p>- B. Next we will do basic switch configurations (hostname, NTP, domain-name, SSH, etc).</p>
-                <img width="872" height="979" alt="Screenshot 2026-04-16 180031" src="https://github.com/user-attachments/assets/939ab7dc-26f3-49e1-9910-b598ede5874d" />
+                <img width="873" height="984" alt="Screenshot 2026-04-18 184107" src="https://github.com/user-attachments/assets/701f6a0a-c9d6-4a1a-9d61-be880cdf360a" />
             <p>- C. Next we will configure VLAN trunking protocol (VTP) transparent.</p>
                 <img width="871" height="526" alt="Screenshot 2026-04-16 180520" src="https://github.com/user-attachments/assets/cdf6e515-4375-4ed3-95c7-a975f3b8549f" />
             <p>- D. Next, we'll configure MGMT vlan interface and add the voice and data vlans to the switch.</p>
