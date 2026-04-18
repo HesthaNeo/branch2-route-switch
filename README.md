@@ -98,11 +98,8 @@
             <p>- F. Now we'll configure and connect trunks port back to the branch 2 router.</p>
                 <img width="869" height="269" alt="Screenshot 2026-04-18 185907" src="https://github.com/user-attachments/assets/287d8348-667c-4ee3-b9ed-328c89d4bcd9" />
                 <img width="1200" height="979" alt="Screenshot 2026-04-18 190043" src="https://github.com/user-attachments/assets/9e5b9c88-2ac4-41f0-94f2-7b22d39e54e6" />
-
-
-            <p>- G. Lastly, we'll configure the access ports on the branch 1 switch.</p>
-                <img width="869" height="1505" alt="Screenshot 2026-04-16 181544" src="https://github.com/user-attachments/assets/86663e80-8a33-45b4-a758-4d2716d714bf" />
-                <img width="870" height="666" alt="Screenshot 2026-04-16 181634" src="https://github.com/user-attachments/assets/cbf22726-96c5-4d47-9c1b-40b024877f36" />
+            <p>- G. Lastly, we'll configure the access ports on the branch 2 switch.</p>
+                
                 <p><em>- *Now that the Branch 1 router and switch are installed, we can set up the phones, hosts & wireless!</em></p>
 
 
