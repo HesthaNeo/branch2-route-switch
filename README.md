@@ -12,24 +12,23 @@
             <p>- I. MGMT Interface VLAN 100</p>
             <p>- II. Data Interface VLAN 192</p>
             <p>- III. Voice Interface VLAN 10</p>
-        <p>- E. Configure DHCP Services For Branch 1 Data And Voice Networks</p>
+        <p>- E. Configure DHCP Services For Branch 2 Data And Voice Networks</p>
             <p>- I. Address Exclusions</p>
-            <p>- II. DHCP Pool B1-DATA</p>
+            <p>- II. DHCP Pool B2-DATA</p>
                 <p>- 1. Network</p>
                 <p>- 2. Default-Router</p>
                 <p>- 3. DNS Server</p>
-            <p>- III. DHCP Pool B1-VOICE</p>
+            <p>- III. DHCP Pool B2-VOICE</p>
                 <p>- 1. Network</p>
                 <p>- 2. Default-Router</p>
                 <p>- 3. Option 150 IP</p>
-        <p>- F. Configure And Connect Private WAN Interface G0/1</p>
-            <p>- I. IP Address</p>
-            <p>- II. Disable CDP</p>
-        <p>- G. Configure Private WAN Border Gateway Protocol (BGP) Peering</p>
-            <p>- I. BGP ASN 65123</p>
-                <p>- 1. Router ID</p>
-                <p>- 2. Neighbor</p>
-                <p>- 3. Networks</p>
+        <p>- F. Configure IPSec/Isakmp VPN Policy And Cryptography</p>
+            <p>- I. HQ Traffic Access List</p>
+            <p>- II. Isakmp Policy</p>
+            <p>- III. Isakmp Key</p>
+            <p>- IV. Ipsec SA Lifetime And Transform-Set</p>
+            <p>- V. Ipsec-Isakmp Crypto Map</p>
+        <p>- G. Configure Access-list To Allow Only VPN Traffic From Branch 2</p>
         <p>- H. Configure Default Route Pointing To Private WAN Neighbor IP</p>
         <p>- I. Configure Private WAN Voice Quality Of Service</p>
             <p>- I. VOIP Control And RTP Access-Lists</p>
