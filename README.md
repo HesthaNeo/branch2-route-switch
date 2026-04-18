@@ -85,11 +85,7 @@
             <p>- I. Next, we'll add static routes for the default route and VPN endpoint.</p>
                 <img width="873" height="241" alt="Screenshot 2026-04-18 183238" src="https://github.com/user-attachments/assets/0865b987-d315-481f-bfeb-6eb0d91b10b2" />
                 <p><em>- Our first route gives us a default route to HQ-WAN-RTR Internet Interface, while the second route gives us a route from the VPN endpoint to the ISP gateway.</em></p>
-                
-
-                
-
-        <h3>Step 2: Install and Configure The Branch 1 Switch</h3>
+        <h3>Step 2: Install and Configure The Branch 2 Switch</h3>
             <p>- A. We'll start by racking, mounting, and powering on the branch 1 2960 switch.</p>
                 <img width="1281" height="906" alt="Screenshot 2026-04-16 175802" src="https://github.com/user-attachments/assets/52b16c9b-2b4b-4f7a-ad8f-78c51d8dfa15" />
             <p>- B. Next we will do basic switch configurations (hostname, NTP, domain-name, SSH, etc).</p>
