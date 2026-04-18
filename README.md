@@ -93,7 +93,7 @@
             <p>- C. Next we will configure VLAN trunking protocol (VTP) transparent.</p>
                 <img width="877" height="697" alt="Screenshot 2026-04-18 185400" src="https://github.com/user-attachments/assets/a177bac6-a425-4971-ae1c-af53a2729bba" />
             <p>- D. Next, we'll configure MGMT vlan interface and add the voice and data vlans to the switch.</p>
-                <img width="870" height="598" alt="Screenshot 2026-04-16 180841" src="https://github.com/user-attachments/assets/d1a9ed83-c8ce-4c20-9d1a-4a1eeff19b73" />
+                <img width="870" height="612" alt="Screenshot 2026-04-18 185645" src="https://github.com/user-attachments/assets/664a3013-a14e-450f-87d0-d33d7535ccc4" />
             <p>- E. *See last step*</p>
             <p>- F. Now we'll configure and connect trunks port back to the branch 1 router.</p>
                 <img width="872" height="335" alt="Screenshot 2026-04-16 181154" src="https://github.com/user-attachments/assets/82b004e3-2cbc-4f32-b00a-7c9a2f64f9fd" />
