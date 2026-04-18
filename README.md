@@ -29,37 +29,15 @@
             <p>- IV. Ipsec SA Lifetime And Transform-Set</p>
             <p>- V. Ipsec-Isakmp Crypto Map</p>
         <p>- G. Configure Access-list To Allow Only VPN Traffic From Branch 2</p>
-        <p>- H. Configure Default Route Pointing To Private WAN Neighbor IP</p>
-        <p>- I. Configure Private WAN Voice Quality Of Service</p>
-            <p>- I. VOIP Control And RTP Access-Lists</p>
-            <p>- II. VOIP Control And RTP Class-Maps</p>
-            <p>- III. Policy-Map</p>
-            <p>- IV. Apply Policy-Map To Private WAN Interface G0/</p>
-        <p>- J. Configure Telephony-Service</p>
-            <p>- I. Max-Ephones</p>
-            <p>- II. Max-DN</p>
-            <p>- III. IP Source-Address</p>
-        <p>- K. Configure Branch 1 Ephone-DNS</p>
-            <p>- x2001, x2002</p>
-        <p>- L. Configure PSTN Access-List</p>
-        <p>- M. Configure PSTN Voice Interface G0/1</p>
+        <p>- H. Configure and connect Internet interface G0/1</p>
             <p>- I. IP Address</p>
             <p>- II. Disable CDP</p>
-            <p>- III. Apply PSTN Access-List Inbound</p>
-        <p>- N. Configure Internal Dial-Peers</p>
-            <p>- I. HQ Extensions (1…$)</p>
-        <p>- O. Configure Outbound Dial-Peers</p>
-            <p>- I. 10-Digit Long Distance And Toll-Free</p>
-            <p>- II. 7-Digit Local</p>
-            <p>- III. International </p>
-            <p>- IV. 411 & 911</p>
-        <p>- P. Configure Outbound Translation Rules <em>(Lab Configuration Not Supported)</em></p>
-        <p>- Q. Configure Inbound Dial-Peers <em>(Lab Configuration Not Supported)</em></p>
-        <p>- R. Configure Inbound Voice Translation Rules <em>(Lab Configuration Not Supported)</em></p>
-        <p>- S. Configure Voice Service VoIP <em>(Lab Configuration Not Supported)</em></p>
-        <p>- T. Configure Session Initiation Protocol (SIP) <em>(Lab Configuration Not Supported)</em></p>
-        <p>- U. Configure DSP Services <em>(Lab Configuration Not Supported)</em></p>
-    <p><b>Step 2: Install and Configure The Branch 1 Switch</b></p>
+            <p>- III. Apply VPN Only Access-List Inbound</p>
+            <p>- IV. Apply VPN Crypto Map For Branch 2 VPN</p>
+        <p>- I. Configure Static Routes</p>
+            <p>- I. Route Pointing The HQ Public IP Address To The Internet Gateway Public IP</p>
+            <p>- II. Default Route Pointing To The HQ Public IP Address</p>
+    <p><b>Step 2: Install and Configure The Branch 2 Switch</b></p>
         <p>- A. Rack, Mount, And Power On All Three Switches</p>
         <p>- B. Basic Router Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</p>
         <p>- C. Configure VLAN Trunking Protocol (VTP) Transparent</p>
