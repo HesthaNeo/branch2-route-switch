@@ -49,11 +49,10 @@
         <h3>Step 1: Install And Configure The Branch 1 Router</h3>
             <p>- A. First, we will rack, mount, and power on the cisco 1941 router.</p>
                 <img width="1175" height="933" alt="Screenshot 2026-04-18 172128" src="https://github.com/user-attachments/assets/c02a4580-6c94-479d-9b50-585cd0ec4643" />
-            <p>- B. Next, we will install the uck9 license.</p>
-                <img width="866" height="995" alt="Screenshot 2026-04-16 161731" src="https://github.com/user-attachments/assets/7afcbaa1-7742-4097-b7c1-fc429f8569d0" />
-                <img width="870" height="1137" alt="Screenshot 2026-04-16 161850" src="https://github.com/user-attachments/assets/52ae8506-d271-499e-9370-496677da66cd" />
-                <img width="871" height="1354" alt="Screenshot 2026-04-16 161944" src="https://github.com/user-attachments/assets/377ce501-7d58-4aba-9849-8ea7e602f504" />
-                <img width="872" height="1217" alt="Screenshot 2026-04-16 162032" src="https://github.com/user-attachments/assets/b597394e-aaee-4a8e-beaf-6bd237de2906" />
+            <p>- B. Next, we will install the securityk9 license.</p>
+                <img width="870" height="944" alt="Screenshot 2026-04-18 172455" src="https://github.com/user-attachments/assets/8569a47a-8040-4679-a3f4-56330a8a1c81" />
+                <img width="873" height="1395" alt="Screenshot 2026-04-18 172622" src="https://github.com/user-attachments/assets/1ed8e1d2-3068-47ab-a2af-948c9ba3d21b" />
+                <img width="871" height="1175" alt="Screenshot 2026-04-18 172712" src="https://github.com/user-attachments/assets/f8ddf371-ce69-44fa-a872-52d1bf3db8ac" />
             <p>- C. Next we will do basic Router configurations (hostname, NTP, domain-name, SSH, etc).</p>
                 <img width="874" height="968" alt="Screenshot 2026-04-16 162754" src="https://github.com/user-attachments/assets/3e343fe9-285e-4a55-89e8-875eee416989" />
             <p>- D. Now, we'll configure and connect branch 1 LAN interface G0/0. We'll set our VLANS respectively as well. (Mgmt interface vlan 100, data interface vlan 192, voice interface vlan 10.)</p>
