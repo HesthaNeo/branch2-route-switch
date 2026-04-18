@@ -79,7 +79,11 @@
             <p>- H. Now, we will configure and connect the VPN-ONLY internet connection for the site-to-site VPN to HQ, which in this case will be Internet interface G0/1.</p>
                 <img width="874" height="429" alt="Screenshot 2026-04-18 182421" src="https://github.com/user-attachments/assets/d349755f-5416-4b9c-93d7-ae33149f6e65" />
                 <img width="1186" height="934" alt="Screenshot 2026-04-18 182613" src="https://github.com/user-attachments/assets/1f60ec7f-c9bc-47ef-92c3-5ff7d1388b07" />
-                <p><em>- *The following access-list will allow Session Initiation Protocol, Real-time Transport Protocol and ICMP from the PSTN Provider. In addition, we have ports open that are not normally used with PSTN connections to allow the phone calls within Packet Tracer. This is because the Packet Tracer lab uses H323 signaling and ephemeral port range TCP 1024-4999. This ephemeral port range is not normally used for calls to/from the PSTN, but we will need them open for our lab to function.</em></p>
+                <p><em>- We will test connectivity. We will first remove the ACL to temporarily allow test pings back in.</em></p>
+                <img width="870" height="496" alt="Screenshot 2026-04-18 182935" src="https://github.com/user-attachments/assets/ab4e2947-c006-45b1-941f-58df3a4aed3f" />
+                <p><em>- Successful.</em></p>
+
+                
                 
 
 
