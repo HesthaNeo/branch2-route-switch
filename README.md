@@ -91,7 +91,7 @@
             <p>- B. Next we will do basic switch configurations (hostname, NTP, domain-name, SSH, etc).</p>
                 <img width="873" height="984" alt="Screenshot 2026-04-18 184107" src="https://github.com/user-attachments/assets/701f6a0a-c9d6-4a1a-9d61-be880cdf360a" />
             <p>- C. Next we will configure VLAN trunking protocol (VTP) transparent.</p>
-                <img width="871" height="526" alt="Screenshot 2026-04-16 180520" src="https://github.com/user-attachments/assets/cdf6e515-4375-4ed3-95c7-a975f3b8549f" />
+                <img width="877" height="697" alt="Screenshot 2026-04-18 185400" src="https://github.com/user-attachments/assets/a177bac6-a425-4971-ae1c-af53a2729bba" />
             <p>- D. Next, we'll configure MGMT vlan interface and add the voice and data vlans to the switch.</p>
                 <img width="870" height="598" alt="Screenshot 2026-04-16 180841" src="https://github.com/user-attachments/assets/d1a9ed83-c8ce-4c20-9d1a-4a1eeff19b73" />
             <p>- E. *See last step*</p>
