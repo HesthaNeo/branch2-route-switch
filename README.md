@@ -70,6 +70,9 @@
                 <img width="873" height="288" alt="Screenshot 2026-04-18 174941" src="https://github.com/user-attachments/assets/fe71856f-c1cd-41e5-8043-ada16eb93e84" />
                 2. Second, we'll configure the ISAKMP policy.
                 <img width="871" height="304" alt="Screenshot 2026-04-18 175301" src="https://github.com/user-attachments/assets/ef6b976d-e0d2-4870-bad1-594430261b33" />
+                3. Third, we'll configure the IPSec SA lifetime and Transform Set.
+                <img width="870" height="236" alt="Screenshot 2026-04-18 180139" src="https://github.com/user-attachments/assets/3e798979-1f44-4ae6-a784-e2bda6512ee3" />
+
 
 
             <p>- G. Next, we'll configure private WAN border gateway protocol (BGP) peering.</p>
