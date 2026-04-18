@@ -82,47 +82,10 @@
                 <p><em>- We will test connectivity. We will first remove the ACL to temporarily allow test pings back in.</em></p>
                 <img width="870" height="496" alt="Screenshot 2026-04-18 182935" src="https://github.com/user-attachments/assets/ab4e2947-c006-45b1-941f-58df3a4aed3f" />
                 <p><em>- Successful.</em></p>
-
+            <p>- I. Next, we'll add static routes for the default route and VPN endpoint.</p>
                 
                 
 
-
-                
-            <p>- I. Next, we'll configure the Private WAN voice quality of service.</p>
-                <img width="871" height="858" alt="Screenshot 2026-04-16 171730" src="https://github.com/user-attachments/assets/3477303d-f3f7-46ad-931a-492ea96cb34d" />
-                <img width="872" height="258" alt="Screenshot 2026-04-16 171825" src="https://github.com/user-attachments/assets/e95a26dd-15d8-4f09-8b88-4650ab9fb2e1" />
-            <p>- J. Next, we'll configure telephony-service (max ephones, max-dn, ip source address, etc.)</p>
-                <img width="868" height="337" alt="Screenshot 2026-04-16 172149" src="https://github.com/user-attachments/assets/63877c2e-3d78-4cbd-b780-cdbe54d1e13e" />
-            <p>- K. Next, we'll configure Branch 1 ephone-dns.</p>
-                <img width="870" height="350" alt="Screenshot 2026-04-16 172401" src="https://github.com/user-attachments/assets/f2d35d32-0152-44f8-9500-2246b1002fd5" />
-            <p>- L. Now, we'll configure the PSTN access-list to the PSTN Provider for external phone service.</p>
-                <p><em>- *The following access-list will allow Session Initiation Protocol, Real-time Transport Protocol and ICMP from the PSTN Provider. In addition, we have ports open that are not normally used with PSTN connections to allow the phone calls within Packet Tracer. This is because the Packet Tracer lab uses H323 signaling and ephemeral port range TCP 1024-4999. This ephemeral port range is not normally used for calls to/from the PSTN, but we will need them open for our lab to function.</em></p>
-                <img width="870" height="379" alt="Screenshot 2026-04-16 172947" src="https://github.com/user-attachments/assets/bdbf4e38-c5ca-4113-804a-63bab33e5b6b" />
-            <p>- M. Next, we'll configure and connect the PSTN voice interface G0/2 and apply our PSTN access-list inbound.</p>
-                <img width="871" height="414" alt="Screenshot 2026-04-16 173510" src="https://github.com/user-attachments/assets/bec864ce-2d0b-4d65-bea9-02a77ca11267" />
-                <img width="1155" height="879" alt="Screenshot 2026-04-16 173629" src="https://github.com/user-attachments/assets/6a696088-1778-42db-b071-c2f06fe5eabe" />
-                <img width="873" height="392" alt="Screenshot 2026-04-16 173941" src="https://github.com/user-attachments/assets/29f90eb0-4b3b-4a23-a2f3-f5b40e177998" />
-                <p><em>- Successful connectivity to the PSTN provider router.</em></p>
-            <p>- N. Now, we'll configure internal dial-peers.</p>
-                1. First, we'll configure dial peers for dialing Headquarters extensions.
-                <img width="870" height="340" alt="Screenshot 2026-04-16 174353" src="https://github.com/user-attachments/assets/0f5ac575-e1b1-42e2-a4e7-e0700b703533" />
-                2. Second, we'll configure dial peers for dialing Branch 2 extensions.
-                <img width="870" height="271" alt="Screenshot 2026-04-16 174527" src="https://github.com/user-attachments/assets/a1ace9c5-6716-4cd2-a526-62034ec35330" />
-            <p>- O. Now, we'll configure outbound dial-peers.</p>
-                1. First, we'll configure dial peers for dialing 10-digit numbers:
-                <img width="870" height="271" alt="Screenshot 2026-04-16 174804" src="https://github.com/user-attachments/assets/ece1306b-9b17-47f3-b5ae-2a5427e71605" />
-                2. Second, we'll configure dial peers for dialing 7-digit numbers:
-                <img width="873" height="266" alt="Screenshot 2026-04-16 174943" src="https://github.com/user-attachments/assets/9093dbe3-5675-4e5b-ba05-45b11df2835b" />
-                3. Third, we'll configure dial peers for dialing international nunumbers:
-                <img width="873" height="271" alt="Screenshot 2026-04-16 175108" src="https://github.com/user-attachments/assets/35df698a-62df-4011-9636-ae4c0930daf7" />
-                4. Lastly, we'll configure dial peers for dialing 411 and 911 respectively:
-                <img width="868" height="268" alt="Screenshot 2026-04-16 175250" src="https://github.com/user-attachments/assets/5585aa33-d5b3-4102-8a58-f70bc6eb1aa7" />
-            <p>- P. Configure Outbound Translation Rules <em>(Lab Configuration Not Supported)</em></p>
-            <p>- Q. Configure Inbound Dial-Peers <em>(Lab Configuration Not Supported)</em></p>
-            <p>- R. Configure Inbound Voice Translation Rules <em>(Lab Configuration Not Supported)</em></p>
-            <p>- S. Configure Voice Service VoIP <em>(Lab Configuration Not Supported)</em></p>
-            <p>- T. Configure Session Initiation Protocol (SIP) <em>(Lab Configuration Not Supported)</em></p>
-            <p>- U. Configure DSP Services <em>(Lab Configuration Not Supported)</em></p>
         <h3>Step 2: Install and Configure The Branch 1 Switch</h3>
             <p>- A. We'll start by racking, mounting, and powering on the branch 1 2960 switch.</p>
                 <img width="1281" height="906" alt="Screenshot 2026-04-16 175802" src="https://github.com/user-attachments/assets/52b16c9b-2b4b-4f7a-ad8f-78c51d8dfa15" />
