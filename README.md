@@ -57,12 +57,9 @@
                 <img width="871" height="983" alt="Screenshot 2026-04-18 172906" src="https://github.com/user-attachments/assets/63635da3-a14e-4d91-bffb-871d57521e3a" />
             <p>- D. Now, we'll configure and connect branch 2 LAN interface G0/0. We'll set our VLANS respectively as well. (Mgmt interface vlan 100, data interface vlan 192, voice interface vlan 10.)</p>
                 <img width="870" height="869" alt="Screenshot 2026-04-18 173258" src="https://github.com/user-attachments/assets/66590791-6acd-4933-a61d-dc846e396de7" />
-
-
-                   
-            <p>- E. Next, we'll configure DHCP services for branch 1 data and voice networks.</p>
+            <p>- E. Next, we'll configure DHCP services for branch 2 data and voice networks.</p>
                 1. First, address exclusions for the DCHP pools.
-                <img width="870" height="225" alt="Screenshot 2026-04-16 163950" src="https://github.com/user-attachments/assets/381602d7-4f18-4d78-a47e-eadc7ed229d4" />
+                <img width="873" height="266" alt="Screenshot 2026-04-18 173707" src="https://github.com/user-attachments/assets/d479b484-8db3-445a-9a57-eff7ca95c783" />
                 2. Second, we'll configure the DHCP pool for B1-data (network, default-router, dns server, etc.)
                 <img width="867" height="283" alt="Screenshot 2026-04-16 164226" src="https://github.com/user-attachments/assets/6851ab5c-dd2f-40e4-922d-bf4f6e977239" />
                 3. Lastly, we'll configure the DHCP pool for B1-voice.
