@@ -72,6 +72,8 @@
                 <img width="871" height="304" alt="Screenshot 2026-04-18 175301" src="https://github.com/user-attachments/assets/ef6b976d-e0d2-4870-bad1-594430261b33" />
                 3. Third, we'll configure the IPSec SA lifetime and Transform Set.
                 <img width="870" height="236" alt="Screenshot 2026-04-18 180139" src="https://github.com/user-attachments/assets/3e798979-1f44-4ae6-a784-e2bda6512ee3" />
+                4. Lastly for this step, we will proceed with creating the map that will be applied to the VPN-ONLY internet interface.
+                <img width="860" height="725" alt="Screenshot 2026-04-18 180730" src="https://github.com/user-attachments/assets/e9373864-04a3-4bce-845f-952d427faca8" />
             <p>- G. Next, we'll configure private WAN border gateway protocol (BGP) peering.</p>
                 1. We'll start by configuring the BGP router ID and set up peering with the provider router.
                 <img width="869" height="243" alt="Screenshot 2026-04-16 165712" src="https://github.com/user-attachments/assets/9d88ca45-7162-4080-8041-9427d952251f" />
